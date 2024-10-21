@@ -17,7 +17,7 @@ This project aims to create a functional Docusign clone, replicating core docume
     Use Git to clone this repository to your local machine:
 
     ```bash
-    git clone [https://github.com/your-username/docusign-clone-thesis.git](https://github.com/your-username/docusign-clone-thesis.git)
+    git clone [https://github.com/ZmnRobin/docusign-clone.git](https://github.com/ZmnRobin/docusign-clone.git)
     ```
 
 2. **Install Dependencies:**
@@ -25,9 +25,14 @@ This project aims to create a functional Docusign clone, replicating core docume
     Navigate to the project directory:
 
     ```bash
-    cd docusign-clone-thesis
+    cd docusign
     ```
-
+    ```bash
+    cd client
+    ```
+    ```bash
+    cd server
+    ```
     Install dependencies for both the client and server sides:
 
     ```bash
@@ -76,3 +81,37 @@ We recommend using the `git` branching strategy to manage your code effectively:
 
 - **main:** This branch should always contain the latest stable and production-ready version of the codebase.
 - **dev:** Use this branch for feature development and bug fixes. Create new feature branches from `dev` to work on specific tasks.
+
+## Collaborating on Features
+
+**Working on Your Feature:**
+
+- Make changes to the codebase within either the `client` or `server` directory, depending on your specific contribution.
+
+**Committing Changes:**
+
+- Use `git add` to stage your changes.
+- Use `git commit` to create a meaningful commit message that explains the changes you've made.
+
+**Pushing Changes:**
+
+Once you're ready to share your work, push your feature branch to the remote repository:
+
+```bash
+git push origin your-feature-branch
+```
+
+**Creating a Pull Request:**
+
+- Visit the repository on GitHub and create a new pull request from your feature branch to the `dev` branch.
+- Provide a detailed description of the changes you've made and any relevant information for reviewers.
+
+**Reviewing Changes:**
+
+- Team members can review your pull request, provide feedback, and suggest changes.
+- Make any necessary modifications to your code based on the feedback received.
+
+**Merging Your Feature:**
+
+- Once your pull request has been approved, you can merge your feature branch into the `dev` branch.
+- Make sure to resolve any merge conflicts that may arise during the merge process.
