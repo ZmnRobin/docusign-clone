@@ -17,7 +17,7 @@ This project aims to create a functional Docusign clone, replicating core docume
     Use Git to clone this repository to your local machine:
 
     ```bash
-    git clone [https://github.com/ZmnRobin/docusign-clone.git](https://github.com/ZmnRobin/docusign-clone.git)
+    git clone https://github.com/ZmnRobin/docusign-clone.git
     ```
 
 2. **Install Dependencies:**
